@@ -3,8 +3,6 @@
 A new Flutter project I learned from youtube. 
 Start from a basic design, passing dynamic data from a list and create re-useable widgets. 
 
-Anyway the last screen (Profile), was purely coded by me :)
-
 ## Getting Started
 
 This project is a starting point for a Flutter application.
