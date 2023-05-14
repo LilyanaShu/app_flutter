@@ -1,6 +1,6 @@
 # app_flutter
 
-A new Flutter project, I learned this from youtube.
+A new Flutter project I learned from youtube. Start from a basic design, passing dynamic data from a list and the last screen (Profile), was purely coded by me :)
 
 ## Getting Started
 
