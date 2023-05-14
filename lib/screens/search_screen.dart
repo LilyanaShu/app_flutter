@@ -14,9 +14,9 @@ class SearchScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Styles.bgColor,
       body: ListView(
-        padding: EdgeInsets.symmetric(horizontal: AppLayout.getWidth(10), vertical: AppLayout.getHeight(40)),
+        padding: EdgeInsets.symmetric(horizontal: AppLayout.getWidth(10), vertical: AppLayout.getHeight(70)),
         children: [
-          Gap(AppLayout.getHeight(40)),
+          //Gap(AppLayout.getHeight(40)),
           Text('What are\nyou looking for?', style: Styles.headLineStyle.copyWith(fontSize: AppLayout.getHeight(32))),
           Gap(AppLayout.getHeight(20)),
           const TabWidget(firstTab: 'Airline Tickets', secondTab: 'Hotels'),

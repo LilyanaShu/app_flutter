@@ -18,6 +18,7 @@ class ProfileScreen extends StatelessWidget {
         children: [
           Row(
             crossAxisAlignment: CrossAxisAlignment.start,
+            //mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Column(
                 children: [
@@ -58,7 +59,8 @@ class ProfileScreen extends StatelessWidget {
                   )
                 ],
               ),
-              Gap(AppLayout.getWidth(55)),
+              //Gap(AppLayout.getWidth(55)),
+              const Spacer(),
               Column(
                 children: [
                   Gap(AppLayout.getWidth(5)),
@@ -67,14 +69,12 @@ class ProfileScreen extends StatelessWidget {
               )
             ],
           ),
-          Gap(AppLayout.getHeight(30)),
+          Gap(AppLayout.getHeight(20)),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Stack(
-                //alignment: AlignmentDirectional.lerp(a, b, t),
                 children: [
-
                   Container(
                     //margin: EdgeInsets.symmetric(vertical: AppLayout.getHeight(20), horizontal: AppLayout.getHeight(10)),
                     padding: EdgeInsets.symmetric(vertical: AppLayout.getHeight(8), horizontal: AppLayout.getHeight(10)),
@@ -135,14 +135,14 @@ class ProfileScreen extends StatelessWidget {
               Text("Accumulted miles", style: Styles.headLineStyle2,)
             ],
           ),
-          Gap(AppLayout.getHeight(30)),
+          Gap(AppLayout.getHeight(20)),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text("192802", style: Styles.headLineStyle.copyWith(fontSize: AppLayout.getWidth(38)),)
             ],
           ),
-          Gap(AppLayout.getHeight(20)),
+          Gap(AppLayout.getHeight(15)),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
@@ -150,7 +150,7 @@ class ProfileScreen extends StatelessWidget {
               Text("14 May 2023", style: Styles.headLineStyle4.copyWith(color: Colors.black26),),
             ],
           ),
-          Gap(AppLayout.getHeight(40)),
+          Gap(AppLayout.getHeight(20)),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: const [
@@ -159,7 +159,7 @@ class ProfileScreen extends StatelessWidget {
 
             ],
           ),
-          Gap(AppLayout.getHeight(30)),
+          Gap(AppLayout.getHeight(25)),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: const [
@@ -167,7 +167,7 @@ class ProfileScreen extends StatelessWidget {
                Column_Widget(textOne: '25', textTwo: 'Miles', alignment: CrossAxisAlignment.end, isColor: true,),
             ],
           ),
-          Gap(AppLayout.getHeight(30)),
+          Gap(AppLayout.getHeight(25)),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: const [

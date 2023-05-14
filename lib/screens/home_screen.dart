@@ -4,6 +4,7 @@ import 'package:gap/gap.dart';
 import 'package:app_flutter/screens/tickets_view.dart';
 import 'package:app_flutter/screens/hotels_view.dart';
 import 'package:app_flutter/utils/app_info_list.dart';
+import 'package:app_flutter/utils/app_layout.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -18,7 +19,7 @@ class HomeScreen extends StatelessWidget {
             padding: const EdgeInsets.symmetric(horizontal: 10),
             child: Column(
               children: [
-                const Gap(40),
+                Gap(AppLayout.getHeight(30)),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
