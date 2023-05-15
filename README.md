@@ -3,6 +3,8 @@
 A new Flutter project I learned. 
 Start from a basic design, passing dynamic data from list and create re-useable widgets. 
 
+Below screenshots are from Google Pixel Phone
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
