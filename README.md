@@ -1,7 +1,7 @@
 # app_flutter
 
-A new Flutter project I learned from youtube. 
-Start from a basic design, passing dynamic data from a list and create re-useable widgets. 
+A new Flutter project I learned. 
+Start from a basic design, passing dynamic data from list and create re-useable widgets. 
 
 ## Getting Started
 
