@@ -4,6 +4,8 @@ A new Flutter project I learned.
 
 Start from a basic design, passing dynamic data from list and create re-useable widgets. 
 
+I followed the instuctor to create 3 tabs and the last tab Profile, I coded it by myself ✌️
+
 Below screenshots are from Google Pixel Phone
 
 
@@ -15,4 +17,3 @@ Below screenshots are from Google Pixel Phone
 
 <img width="336" alt="image" src="https://github.com/LilyanaShu/app_flutter/assets/132737700/f4e9a89f-48a7-41c8-887f-4f6a6bde5ad1">
 
-I followed the instuctor to create 3 tabs and the last tab Profile, I coded it by myself ✌️
